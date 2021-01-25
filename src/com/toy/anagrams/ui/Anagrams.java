@@ -265,12 +265,11 @@ public class Anagrams extends JFrame {
     }//GEN-LAST:event_exitForm
 
     private void helpButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_helpButtonActionPerformed
-        String helpMessage = 
-                "Click on the 'New Word' button to try to guess a new word from the dictionary.\n"+
-                "After you have entered a word in the 'Your Guess' text box press the 'Guess' button to seee if "+
-                "you guessed correctly!\n"+
-                "Press the help button to display this message.";
-        JOptionPane.showMessageDialog(this,helpMessage,"Help",JOptionPane.INFORMATION_MESSAGE);
+      String helpMessage = 
+                "Πατήστε στο πλήκτρο 'New Word' για να προσπαθήσετε να βρείτε μία νέα λέξη από το λεξικό.\n"+
+                "Αφού έχετε εισάγει μία λέξη στο πλαίσιο κειμένου 'Your Guess' πατήστε το πλήκτρο 'Guess' για να δείτε αν μαντέψατε σωστά!\n"+
+                "Πατήστε το πλήκτρο Help για να εμφανισθεί αυτό το μήνυμα.";
+JOptionPane.showMessageDialog(this,helpMessage,"Help",JOptionPane.INFORMATION_MESSAGE);
     }//GEN-LAST:event_helpButtonActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
